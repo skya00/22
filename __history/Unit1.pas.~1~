@@ -56,7 +56,7 @@ end;
 
 procedure TForm1.Button2Click(Sender: TObject);
 begin
-showmessage('22223333');
+showmessage('2222');
 end;
 
 end.
