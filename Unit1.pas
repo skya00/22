@@ -12,6 +12,7 @@ type
     Button2: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,6 +58,11 @@ end;
 procedure TForm1.Button2Click(Sender: TObject);
 begin
 showmessage('22223333');
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+   showmessage('1111');
 end;
 
 end.
