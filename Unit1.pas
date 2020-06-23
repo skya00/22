@@ -9,7 +9,9 @@ uses
 type
   TForm1 = class(TForm)
     Button1: TButton;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -50,6 +52,11 @@ begin
   showmessage(R);
 
 
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+showmessage('2222');
 end;
 
 end.
